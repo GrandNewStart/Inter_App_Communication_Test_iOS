@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC30972D299DEE4D00739157 /* UTTpye+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30972C299DEE4D00739157 /* UTTpye+.swift */; };
+		FC30972E299DEE4D00739157 /* UTTpye+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30972C299DEE4D00739157 /* UTTpye+.swift */; };
+		FC309733299DEE9900739157 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309732299DEE9900739157 /* String+.swift */; };
+		FC309734299DEE9900739157 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309732299DEE9900739157 /* String+.swift */; };
+		FC309737299DF79500739157 /* BiolletFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309736299DF79500739157 /* BiolletFile.swift */; };
+		FC30973F299DFCE100739157 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30973E299DFCE100739157 /* ShareViewController.swift */; };
+		FC309742299DFCE100739157 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC309740299DFCE100739157 /* MainInterface.storyboard */; };
+		FC30974B299DFEF100739157 /* BiolletFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30974A299DFEF100739157 /* BiolletFile.swift */; };
+		FC30974D299E16E100739157 /* FileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC30974C299E16E100739157 /* FileCell.xib */; };
+		FC30974F299E17B900739157 /* FileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC30974E299E17B900739157 /* FileCell.swift */; };
+		FC309750299EFAE500739157 /* Share.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FC30973C299DFCE100739157 /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FC309754299EFF2100739157 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309732299DEE9900739157 /* String+.swift */; };
+		FC309757299F0D2800739157 /* FileUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC309756299F0D2800739157 /* FileUtils.swift */; };
+		FC33A7EE299B7E6B0018CC61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33A7ED299B7E6B0018CC61 /* AppDelegate.swift */; };
+		FC33A7F0299B7E6B0018CC61 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33A7EF299B7E6B0018CC61 /* SceneDelegate.swift */; };
+		FC33A7F2299B7E6B0018CC61 /* FileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33A7F1299B7E6B0018CC61 /* FileDetailViewController.swift */; };
+		FC33A7F5299B7E6B0018CC61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC33A7F3299B7E6B0018CC61 /* Main.storyboard */; };
+		FC33A7F7299B7E6C0018CC61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC33A7F6299B7E6C0018CC61 /* Assets.xcassets */; };
+		FC33A7FA299B7E6C0018CC61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC33A7F8299B7E6C0018CC61 /* LaunchScreen.storyboard */; };
+		FC33A804299C5CF30018CC61 /* FileListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33A803299C5CF30018CC61 /* FileListViewController.swift */; };
+		FC33A809299C9E1B0018CC61 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC33A808299C9E1B0018CC61 /* IntroViewController.swift */; };
+		FC46265D2995E97C006E5281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46265C2995E97C006E5281 /* AppDelegate.swift */; };
+		FC46265F2995E97C006E5281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46265E2995E97C006E5281 /* SceneDelegate.swift */; };
+		FC4626612995E97C006E5281 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4626602995E97C006E5281 /* EditViewController.swift */; };
+		FC4626642995E97C006E5281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4626622995E97C006E5281 /* Main.storyboard */; };
+		FC4626662995E97D006E5281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4626652995E97D006E5281 /* Assets.xcassets */; };
+		FC4626692995E97D006E5281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4626672995E97D006E5281 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC309751299EFAE500739157 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC4626512995E97C006E5281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC30973B299DFCE100739157;
+			remoteInfo = Share;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC309722299DA88000739157 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC309753299EFAE500739157 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FC309750299EFAE500739157 /* Share.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC309714299DA88000739157 /* UniformTypeIdentifiers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UniformTypeIdentifiers.framework; path = System/Library/Frameworks/UniformTypeIdentifiers.framework; sourceTree = SDKROOT; };
+		FC30972C299DEE4D00739157 /* UTTpye+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTTpye+.swift"; sourceTree = "<group>"; };
+		FC309732299DEE9900739157 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		FC309736299DF79500739157 /* BiolletFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiolletFile.swift; sourceTree = "<group>"; };
+		FC30973C299DFCE100739157 /* Share.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Share.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC30973E299DFCE100739157 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		FC309741299DFCE100739157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		FC309743299DFCE100739157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC30974A299DFEF100739157 /* BiolletFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiolletFile.swift; sourceTree = "<group>"; };
+		FC30974C299E16E100739157 /* FileCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileCell.xib; sourceTree = "<group>"; };
+		FC30974E299E17B900739157 /* FileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileCell.swift; sourceTree = "<group>"; };
+		FC309755299F01E400739157 /* Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share.entitlements; sourceTree = "<group>"; };
+		FC309756299F0D2800739157 /* FileUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileUtils.swift; sourceTree = "<group>"; };
+		FC33A7EB299B7E6B0018CC61 /* Biollet Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biollet Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC33A7ED299B7E6B0018CC61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC33A7EF299B7E6B0018CC61 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC33A7F1299B7E6B0018CC61 /* FileDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDetailViewController.swift; sourceTree = "<group>"; };
+		FC33A7F4299B7E6B0018CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC33A7F6299B7E6C0018CC61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC33A7F9299B7E6C0018CC61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC33A7FB299B7E6C0018CC61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC33A7FF299B7E830018CC61 /* Biollet Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Biollet Viewer.entitlements"; sourceTree = "<group>"; };
+		FC33A803299C5CF30018CC61 /* FileListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileListViewController.swift; sourceTree = "<group>"; };
+		FC33A808299C9E1B0018CC61 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		FC4626592995E97C006E5281 /* Biollet Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biollet Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC46265C2995E97C006E5281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC46265E2995E97C006E5281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC4626602995E97C006E5281 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		FC4626632995E97C006E5281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC4626652995E97D006E5281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC4626682995E97D006E5281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC46266A2995E97D006E5281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCAE8A2299A344700ADE50D /* Biollet Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Biollet Editor.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC309739299DFCE100739157 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC33A7E8299B7E6B0018CC61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4626562995E97C006E5281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC309713299DA88000739157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC309714299DA88000739157 /* UniformTypeIdentifiers.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC30973D299DFCE100739157 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				FC309755299F01E400739157 /* Share.entitlements */,
+				FC30973E299DFCE100739157 /* ShareViewController.swift */,
+				FC309740299DFCE100739157 /* MainInterface.storyboard */,
+				FC309743299DFCE100739157 /* Info.plist */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		FC33A7EC299B7E6B0018CC61 /* Biollet Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				FC33A7FF299B7E830018CC61 /* Biollet Viewer.entitlements */,
+				FC33A7ED299B7E6B0018CC61 /* AppDelegate.swift */,
+				FC33A7EF299B7E6B0018CC61 /* SceneDelegate.swift */,
+				FC33A803299C5CF30018CC61 /* FileListViewController.swift */,
+				FC33A7F1299B7E6B0018CC61 /* FileDetailViewController.swift */,
+				FC309736299DF79500739157 /* BiolletFile.swift */,
+				FC309756299F0D2800739157 /* FileUtils.swift */,
+				FC33A7F6299B7E6C0018CC61 /* Assets.xcassets */,
+				FC33A7F3299B7E6B0018CC61 /* Main.storyboard */,
+				FC33A7F8299B7E6C0018CC61 /* LaunchScreen.storyboard */,
+				FC30974C299E16E100739157 /* FileCell.xib */,
+				FC30974E299E17B900739157 /* FileCell.swift */,
+				FC33A7FB299B7E6C0018CC61 /* Info.plist */,
+			);
+			path = "Biollet Viewer";
+			sourceTree = "<group>";
+		};
+		FC4626502995E97C006E5281 = {
+			isa = PBXGroup;
+			children = (
+				FC309732299DEE9900739157 /* String+.swift */,
+				FC30972C299DEE4D00739157 /* UTTpye+.swift */,
+				FC46265B2995E97C006E5281 /* Biollet Editor */,
+				FC33A7EC299B7E6B0018CC61 /* Biollet Viewer */,
+				FC30973D299DFCE100739157 /* Share */,
+				FC309713299DA88000739157 /* Frameworks */,
+				FC46265A2995E97C006E5281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC46265A2995E97C006E5281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC4626592995E97C006E5281 /* Biollet Editor.app */,
+				FC33A7EB299B7E6B0018CC61 /* Biollet Viewer.app */,
+				FC30973C299DFCE100739157 /* Share.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC46265B2995E97C006E5281 /* Biollet Editor */ = {
+			isa = PBXGroup;
+			children = (
+				FCCAE8A2299A344700ADE50D /* Biollet Editor.entitlements */,
+				FC30974A299DFEF100739157 /* BiolletFile.swift */,
+				FC46265C2995E97C006E5281 /* AppDelegate.swift */,
+				FC46265E2995E97C006E5281 /* SceneDelegate.swift */,
+				FC33A808299C9E1B0018CC61 /* IntroViewController.swift */,
+				FC4626602995E97C006E5281 /* EditViewController.swift */,
+				FC4626652995E97D006E5281 /* Assets.xcassets */,
+				FC4626622995E97C006E5281 /* Main.storyboard */,
+				FC4626672995E97D006E5281 /* LaunchScreen.storyboard */,
+				FC46266A2995E97D006E5281 /* Info.plist */,
+			);
+			path = "Biollet Editor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC30973B299DFCE100739157 /* Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC309747299DFCE100739157 /* Build configuration list for PBXNativeTarget "Share" */;
+			buildPhases = (
+				FC309738299DFCE100739157 /* Sources */,
+				FC309739299DFCE100739157 /* Frameworks */,
+				FC30973A299DFCE100739157 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Share;
+			productName = Share;
+			productReference = FC30973C299DFCE100739157 /* Share.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FC33A7EA299B7E6B0018CC61 /* Biollet Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC33A7FC299B7E6C0018CC61 /* Build configuration list for PBXNativeTarget "Biollet Viewer" */;
+			buildPhases = (
+				FC33A7E7299B7E6B0018CC61 /* Sources */,
+				FC33A7E8299B7E6B0018CC61 /* Frameworks */,
+				FC33A7E9299B7E6B0018CC61 /* Resources */,
+				FC309753299EFAE500739157 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC309752299EFAE500739157 /* PBXTargetDependency */,
+			);
+			name = "Biollet Viewer";
+			productName = Receiver;
+			productReference = FC33A7EB299B7E6B0018CC61 /* Biollet Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC4626582995E97C006E5281 /* Biollet Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC46266D2995E97D006E5281 /* Build configuration list for PBXNativeTarget "Biollet Editor" */;
+			buildPhases = (
+				FC4626552995E97C006E5281 /* Sources */,
+				FC4626562995E97C006E5281 /* Frameworks */,
+				FC4626572995E97C006E5281 /* Resources */,
+				FC309722299DA88000739157 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Biollet Editor";
+			productName = appA;
+			productReference = FC4626592995E97C006E5281 /* Biollet Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC4626512995E97C006E5281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FC30973B299DFCE100739157 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FC33A7EA299B7E6B0018CC61 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FC4626582995E97C006E5281 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = FC4626542995E97C006E5281 /* Build configuration list for PBXProject "IAC Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC4626502995E97C006E5281;
+			productRefGroup = FC46265A2995E97C006E5281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4626582995E97C006E5281 /* Biollet Editor */,
+				FC33A7EA299B7E6B0018CC61 /* Biollet Viewer */,
+				FC30973B299DFCE100739157 /* Share */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC30973A299DFCE100739157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC309742299DFCE100739157 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC33A7E9299B7E6B0018CC61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC33A7FA299B7E6C0018CC61 /* LaunchScreen.storyboard in Resources */,
+				FC30974D299E16E100739157 /* FileCell.xib in Resources */,
+				FC33A7F7299B7E6C0018CC61 /* Assets.xcassets in Resources */,
+				FC33A7F5299B7E6B0018CC61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4626572995E97C006E5281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC4626692995E97D006E5281 /* LaunchScreen.storyboard in Resources */,
+				FC4626662995E97D006E5281 /* Assets.xcassets in Resources */,
+				FC4626642995E97C006E5281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC309738299DFCE100739157 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC309754299EFF2100739157 /* String+.swift in Sources */,
+				FC30973F299DFCE100739157 /* ShareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC33A7E7299B7E6B0018CC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC309757299F0D2800739157 /* FileUtils.swift in Sources */,
+				FC30972E299DEE4D00739157 /* UTTpye+.swift in Sources */,
+				FC30974F299E17B900739157 /* FileCell.swift in Sources */,
+				FC309737299DF79500739157 /* BiolletFile.swift in Sources */,
+				FC309734299DEE9900739157 /* String+.swift in Sources */,
+				FC33A7F2299B7E6B0018CC61 /* FileDetailViewController.swift in Sources */,
+				FC33A804299C5CF30018CC61 /* FileListViewController.swift in Sources */,
+				FC33A7EE299B7E6B0018CC61 /* AppDelegate.swift in Sources */,
+				FC33A7F0299B7E6B0018CC61 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4626552995E97C006E5281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC30972D299DEE4D00739157 /* UTTpye+.swift in Sources */,
+				FC309733299DEE9900739157 /* String+.swift in Sources */,
+				FC4626612995E97C006E5281 /* EditViewController.swift in Sources */,
+				FC30974B299DFEF100739157 /* BiolletFile.swift in Sources */,
+				FC33A809299C9E1B0018CC61 /* IntroViewController.swift in Sources */,
+				FC46265D2995E97C006E5281 /* AppDelegate.swift in Sources */,
+				FC46265F2995E97C006E5281 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC309752299EFAE500739157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC30973B299DFCE100739157 /* Share */;
+			targetProxy = FC309751299EFAE500739157 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC309740299DFCE100739157 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC309741299DFCE100739157 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		FC33A7F3299B7E6B0018CC61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC33A7F4299B7E6B0018CC61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC33A7F8299B7E6C0018CC61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC33A7F9299B7E6C0018CC61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4626622995E97C006E5281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4626632995E97C006E5281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC4626672995E97D006E5281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC4626682995E97D006E5281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC309748299DFCE100739157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.viewer.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC309749299DFCE100739157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Share/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Share;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.viewer.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC33A7FD299B7E6C0018CC61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biollet Viewer/Biollet Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biollet Viewer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.viewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC33A7FE299B7E6C0018CC61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biollet Viewer/Biollet Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biollet Viewer/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.viewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC46266B2995E97D006E5281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC46266C2995E97D006E5281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC46266E2995E97D006E5281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biollet Editor/Biollet Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biollet Editor/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.editor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC46266F2995E97D006E5281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Biollet Editor/Biollet Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SX3KQTDSHY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Biollet Editor/Info.plist";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinwoo.editor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC309747299DFCE100739157 /* Build configuration list for PBXNativeTarget "Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC309748299DFCE100739157 /* Debug */,
+				FC309749299DFCE100739157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC33A7FC299B7E6C0018CC61 /* Build configuration list for PBXNativeTarget "Biollet Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC33A7FD299B7E6C0018CC61 /* Debug */,
+				FC33A7FE299B7E6C0018CC61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4626542995E97C006E5281 /* Build configuration list for PBXProject "IAC Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46266B2995E97D006E5281 /* Debug */,
+				FC46266C2995E97D006E5281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC46266D2995E97D006E5281 /* Build configuration list for PBXNativeTarget "Biollet Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC46266E2995E97D006E5281 /* Debug */,
+				FC46266F2995E97D006E5281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC4626512995E97C006E5281 /* Project object */;
+}
